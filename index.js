@@ -83,7 +83,7 @@ let books = [
 
 /* Loop through Array of Objects */
 
-books.map(item => {
+books.forEach(item => {
     console.log("title: " + item.title)
     console.log("author: " + item.author)
     console.log("**********************")
